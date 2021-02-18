@@ -30,12 +30,16 @@ function yellLouder(string){
   return string.toUpperCase() + "!!!"; 
 }
 
-
-
-function getInitials (string){
-  const string = "Jose Angel Bosquez"
-  return string.getInitials[0 + "." + 5 + "."];
+function getInitials (str){
+  const initials1 = str[0];
+  const spaceIndex = str.indexOf(' ');
+  const initials2 = str[spaceIndex + 1];
+  
+  return initials1 + "." + initials2 + ".";
 }
+//function getInitials (str){
+//  return str[0] + "." + str[str.indexOf(' ') + 1]  + ".";
+//}
 
 
 /********************************************************************
