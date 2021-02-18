@@ -14,6 +14,9 @@ function getLastCharacter (string){
   return string[string.length-1];
 }
 
+function getOneCharacter(string1, num){
+  return string1 [num]
+}
 
 
 
