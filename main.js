@@ -25,6 +25,19 @@ function getTwoCharacters(string, num3, num4){
 function makeCapitalized (string){
   return string.toUpperCase();
 }
+
+function yellLouder(string){
+  return string.toUpperCase() + "!!!"; 
+}
+
+
+
+function getInitials (string){
+  const string = "Jose Angel Bosquez"
+  return string.getInitials[0 + "." + 5 + "."];
+}
+
+
 /********************************************************************
  * THIS CODE IS FOR INTERNAL USE ONLY. DON'T CHANGE ANYTHING BELOW! *
  ********************************************************************/
