@@ -10,6 +10,11 @@ function getFirstCharacter(string1){
   return string1;
 }
 
+function getLastCharacter (string){
+  return string[string.length-1];
+}
+
+
 
 
 
