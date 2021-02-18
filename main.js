@@ -18,9 +18,13 @@ function getOneCharacter(string1, num){
   return string1 [num]
 }
 
+function getTwoCharacters(string, num3, num4){
+  return string[num3] + string[num4];
+}
 
-
-
+function makeCapitalized (string){
+  return string.toUpperCase();
+}
 /********************************************************************
  * THIS CODE IS FOR INTERNAL USE ONLY. DON'T CHANGE ANYTHING BELOW! *
  ********************************************************************/
