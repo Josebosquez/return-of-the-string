@@ -1,8 +1,14 @@
 /*******************
  * YOUR CODE HERE! *
  *******************/
+function yell(string){
+  return string + "!";
+}
 
-
+function getFirstCharacter(string1){
+  string1 = string1[0];
+  return string1;
+}
 
 
 
